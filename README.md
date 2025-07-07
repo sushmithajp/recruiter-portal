@@ -27,7 +27,7 @@ npm install -g json-server
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/recruiter-portal.git
+   git clone https://github.com/sushmithajp/recruiter-portal.git
    cd recruiter-portal
 
    ```
