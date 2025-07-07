@@ -14,23 +14,4 @@ export class CandidateService {
   getCandidates(): Observable<Candidate[]> {
     return this.http.get<Candidate[]>(this.baseUrl);
   }
-
-  getCandidate(id: number): Observable<Candidate> {
-    return this.http.get<Candidate>(`${this.baseUrl}/${id}`);
-  }
-
-  createCandidate(candidate: Candidate): Observable<Candidate> {
-    return this.http.post<Candidate>(this.baseUrl, candidate);
-  }
-
-  updateCandidate(candidate: Candidate): Observable<Candidate> {
-    return this.http.put<Candidate>(
-      `${this.baseUrl}/${candidate.id}`,
-      candidate
-    );
-  }
-
-  deleteCandidate(id: number): Observable<any> {
-    return this.http.delete(`${this.baseUrl}/${id}`);
-  }
 }

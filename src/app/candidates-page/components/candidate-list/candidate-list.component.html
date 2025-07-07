@@ -1,0 +1,88 @@
+<div class="card shadow border-0 rounded">
+  <div class="card-body">
+    <table class="table table-hover align-middle">
+      <thead class="custom-dark text-white">
+        <tr>
+          <th *ngFor="let header of tableHeaders">{{ header }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          *ngFor="let candidate of pagedCandidates"
+          class="table-row border-bottom"
+        >
+          <td>{{ candidate.name }}</td>
+          <td>{{ candidate.email }}</td>
+          <td>{{ candidate.position }}</td>
+          <td>{{ candidate.address }}</td>
+          <td>{{ candidate.phoneNumber }}</td>
+          <td>
+            <span
+              class="badge"
+              [ngClass]="{
+                'bg-success': candidate.status === 'Shortlisted',
+                'bg-warning': candidate.status === 'Interview Scheduled',
+                'bg-danger': candidate.status === 'Rejected'
+              }"
+            >
+              {{ candidate.status }}
+            </span>
+          </td>
+        </tr>
+        <tr *ngIf="pagedCandidates?.length === 0">
+          <td colspan="6" class="text-center py-5 text-muted">
+            <div class="d-flex flex-column align-items-center">
+              <i class="bi bi-search fs-1 mb-3 text-secondary"></i>
+              <h5 class="mb-1">No candidates found</h5>
+              <p class="mb-0 small">
+                Try adjusting your search filters or keywords.
+              </p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Pagination -->
+    <nav *ngIf="totalPages > 1" class="mt-4">
+      <ul class="pagination justify-content-end">
+        <li
+          class="page-item"
+          [class.disabled]="currentPage === 1"
+          (click)="goToPage(currentPage - 1)"
+        >
+          <a class="page-link text-dark border-1">
+            <i class="bi bi-chevron-left"></i>
+          </a>
+        </li>
+
+        <li
+          class="page-item"
+          *ngFor="let page of pages"
+          [class.active]="page === currentPage"
+          (click)="goToPage(page)"
+        >
+          <a
+            class="page-link border-1"
+            [ngClass]="{
+              'bg-dark text-white': page === currentPage,
+              'bg-light text-dark': page !== currentPage
+            }"
+          >
+            {{ page }}
+          </a>
+        </li>
+
+        <li
+          class="page-item"
+          [class.disabled]="currentPage === totalPages"
+          (click)="goToPage(currentPage + 1)"
+        >
+          <a class="page-link text-dark border-1">
+            <i class="bi bi-chevron-right"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>

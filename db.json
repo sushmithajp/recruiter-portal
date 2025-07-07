@@ -2,93 +2,273 @@
   "candidates": [
     {
       "id": 1,
-      "name": "Alice Johnson",
-      "email": "alice@example.com",
+      "name": "Rahul Sharma",
+      "email": "rahul.sharma@example.com",
       "position": "Frontend Developer",
-      "address": "123 Maple Street, NY",
-      "phoneNumber": "555-1234",
+      "address": "123 MG Road, Bengaluru",
+      "phoneNumber": "9876543210",
       "status": "Shortlisted"
     },
     {
       "id": 2,
-      "name": "Bob Smith",
-      "email": "bob@example.com",
+      "name": "Priya Mehta",
+      "email": "priya.mehta@example.com",
       "position": "Backend Developer",
-      "address": "456 Oak Avenue, CA",
-      "phoneNumber": "555-5678",
+      "address": "221 Nehru Street, Delhi",
+      "phoneNumber": "8765432109",
       "status": "Interview Scheduled"
     },
     {
       "id": 3,
-      "name": "Carol Davis",
-      "email": "carol@example.com",
-      "position": "Full Stack Engineer",
-      "address": "789 Pine Lane, TX",
-      "phoneNumber": "555-8765",
+      "name": "Amit Kumar",
+      "email": "amit.kumar@example.com",
+      "position": "QA Engineer",
+      "address": "45 Sector 15, Noida",
+      "phoneNumber": "7654321098",
       "status": "Rejected"
     },
     {
       "id": 4,
-      "name": "David Lee",
-      "email": "david@example.com",
-      "position": "Data Analyst",
-      "address": "222 Elm Street, WA",
-      "phoneNumber": "555-3456",
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@example.com",
+      "position": "UI/UX Designer",
+      "address": "101 Jubilee Hills, Hyderabad",
+      "phoneNumber": "9988776655",
       "status": "Shortlisted"
     },
     {
       "id": 5,
-      "name": "Eva Green",
-      "email": "eva@example.com",
-      "position": "UI/UX Designer",
-      "address": "135 Cherry Blvd, IL",
-      "phoneNumber": "555-9999",
+      "name": "Arjun Verma",
+      "email": "arjun.verma@example.com",
+      "position": "DevOps Engineer",
+      "address": "67 Park Street, Kolkata",
+      "phoneNumber": "9123456780",
       "status": "Interview Scheduled"
     },
     {
       "id": 6,
-      "name": "Frank Miller",
-      "email": "frank@example.com",
-      "position": "QA Engineer",
-      "address": "789 Spruce Way, FL",
-      "phoneNumber": "555-8888",
+      "name": "Neha Sharma",
+      "email": "neha.sharma@example.com",
+      "position": "Data Analyst",
+      "address": "76 Banjara Hills, Hyderabad",
+      "phoneNumber": "8899776655",
       "status": "Rejected"
     },
     {
       "id": 7,
-      "name": "Grace Kim",
-      "email": "grace@example.com",
-      "position": "DevOps Engineer",
-      "address": "321 Cedar St, CO",
-      "phoneNumber": "555-7777",
+      "name": "Ravi Kumar",
+      "email": "ravi.kumar@example.com",
+      "position": "Full Stack Developer",
+      "address": "45 Jayanagar, Bengaluru",
+      "phoneNumber": "9811122233",
       "status": "Shortlisted"
     },
     {
       "id": 8,
-      "name": "Henry Adams",
-      "email": "henry@example.com",
-      "position": "Cloud Architect",
-      "address": "654 Birch Rd, MA",
-      "phoneNumber": "555-6666",
+      "name": "Anjali Patel",
+      "email": "anjali.patel@example.com",
+      "position": "Product Manager",
+      "address": "88 Satellite Road, Ahmedabad",
+      "phoneNumber": "9001123456",
       "status": "Interview Scheduled"
     },
     {
       "id": 9,
-      "name": "Ivy Brown",
-      "email": "ivy@example.com",
-      "position": "Product Manager",
-      "address": "111 Palm Ct, AZ",
-      "phoneNumber": "555-5555",
+      "name": "Rahul Sharma",
+      "email": "rahul.sharma2@example.com",
+      "position": "Scrum Master",
+      "address": "90 Connaught Place, Delhi",
+      "phoneNumber": "9345678901",
       "status": "Rejected"
     },
     {
       "id": 10,
-      "name": "Jack White",
-      "email": "jack@example.com",
-      "position": "Scrum Master",
-      "address": "999 Walnut Dr, NJ",
-      "phoneNumber": "555-4444",
+      "name": "Divya Nair",
+      "email": "divya.nair@example.com",
+      "position": "Software Engineer",
+      "address": "123 Panampilly Nagar, Kochi",
+      "phoneNumber": "9556677880",
       "status": "Shortlisted"
+    },
+    {
+      "id": 11,
+      "name": "Manish Tiwari",
+      "email": "manish.tiwari@example.com",
+      "position": "Database Admin",
+      "address": "12 Gomti Nagar, Lucknow",
+      "phoneNumber": "9011223344",
+      "status": "Shortlisted"
+    },
+    {
+      "id": 12,
+      "name": "Sanya Gupta",
+      "email": "sanya.gupta@example.com",
+      "position": "Cloud Architect",
+      "address": "33 Rajarhat, Kolkata",
+      "phoneNumber": "8877665544",
+      "status": "Interview Scheduled"
+    },
+    {
+      "id": 13,
+      "name": "Vikas Yadav",
+      "email": "vikas.yadav@example.com",
+      "position": "System Analyst",
+      "address": "81 HSR Layout, Bengaluru",
+      "phoneNumber": "9090909090",
+      "status": "Rejected"
+    },
+    {
+      "id": 14,
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy2@example.com",
+      "position": "Frontend Developer",
+      "address": "55 Jubilee Enclave, Hyderabad",
+      "phoneNumber": "9080706050",
+      "status": "Shortlisted"
+    },
+    {
+      "id": 15,
+      "name": "Arjun Verma",
+      "email": "arjun.verma2@example.com",
+      "position": "Backend Developer",
+      "address": "91 Salt Lake, Kolkata",
+      "phoneNumber": "9834567890",
+      "status": "Rejected"
+    },
+    {
+      "id": 16,
+      "name": "Preeti Singh",
+      "email": "preeti.singh@example.com",
+      "position": "Technical Writer",
+      "address": "22 Civil Lines, Kanpur",
+      "phoneNumber": "8765098765",
+      "status": "Interview Scheduled"
+    },
+    {
+      "id": 17,
+      "name": "Amit Kumar",
+      "email": "amit.kumar2@example.com",
+      "position": "DevOps Engineer",
+      "address": "29 Sector 62, Noida",
+      "phoneNumber": "9988771122",
+      "status": "Shortlisted"
+    },
+    {
+      "id": 18,
+      "name": "Ruchi Jain",
+      "email": "ruchi.jain@example.com",
+      "position": "Business Analyst",
+      "address": "56 Ring Road, Indore",
+      "phoneNumber": "9765432100",
+      "status": "Interview Scheduled"
+    },
+    {
+      "id": 19,
+      "name": "Deepak Roy",
+      "email": "deepak.roy@example.com",
+      "position": "AI Engineer",
+      "address": "77 Sector 17, Chandigarh",
+      "phoneNumber": "9123981234",
+      "status": "Rejected"
+    },
+    {
+      "id": 20,
+      "name": "Shruti Rao",
+      "email": "shruti.rao@example.com",
+      "position": "Data Scientist",
+      "address": "5 MG Road, Pune",
+      "phoneNumber": "9876567890",
+      "status": "Shortlisted"
+    },
+    {
+      "id": 21,
+      "name": "Ravi Kumar",
+      "email": "ravi.kumar2@example.com",
+      "position": "Software Tester",
+      "address": "102 Dilsukhnagar, Hyderabad",
+      "phoneNumber": "9091234567",
+      "status": "Rejected"
+    },
+    {
+      "id": 22,
+      "name": "Neha Sharma",
+      "email": "neha.sharma2@example.com",
+      "position": "UX Researcher",
+      "address": "67 Church Street, Bengaluru",
+      "phoneNumber": "8877996655",
+      "status": "Shortlisted"
+    },
+    {
+      "id": 23,
+      "name": "Ajay Desai",
+      "email": "ajay.desai@example.com",
+      "position": "Machine Learning Engineer",
+      "address": "42 Camp Road, Pune",
+      "phoneNumber": "9765438765",
+      "status": "Interview Scheduled"
+    },
+    {
+      "id": 24,
+      "name": "Sakshi Kapoor",
+      "email": "sakshi.kapoor@example.com",
+      "position": "Technical Recruiter",
+      "address": "3 MI Road, Jaipur",
+      "phoneNumber": "9887766554",
+      "status": "Rejected"
+    },
+    {
+      "id": 25,
+      "name": "Manish Tiwari",
+      "email": "manish.tiwari2@example.com",
+      "position": "Security Analyst",
+      "address": "85 Vashi, Navi Mumbai",
+      "phoneNumber": "9543218765",
+      "status": "Interview Scheduled"
+    },
+    {
+      "id": 26,
+      "name": "Tanya Bhatia",
+      "email": "tanya.bhatia@example.com",
+      "position": "Blockchain Developer",
+      "address": "202 Powai, Mumbai",
+      "phoneNumber": "9856473829",
+      "status": "Shortlisted"
+    },
+    {
+      "id": 27,
+      "name": "Ritika Malhotra",
+      "email": "ritika.malhotra@example.com",
+      "position": "Software Engineer",
+      "address": "42 Sector 11, Gurgaon",
+      "phoneNumber": "9745632187",
+      "status": "Rejected"
+    },
+    {
+      "id": 28,
+      "name": "Varun Joshi",
+      "email": "varun.joshi@example.com",
+      "position": "Project Manager",
+      "address": "88 Law Garden, Ahmedabad",
+      "phoneNumber": "9900112233",
+      "status": "Interview Scheduled"
+    },
+    {
+      "id": 29,
+      "name": "Swati Saxena",
+      "email": "swati.saxena@example.com",
+      "position": "HR Manager",
+      "address": "102 Gomti Nagar, Lucknow",
+      "phoneNumber": "9234567890",
+      "status": "Shortlisted"
+    },
+    {
+      "id": 30,
+      "name": "Yash Thakur",
+      "email": "yash.thakur@example.com",
+      "position": "Mobile Developer",
+      "address": "76 Camp Area, Pune",
+      "phoneNumber": "9345612789",
+      "status": "Rejected"
     }
   ]
 }

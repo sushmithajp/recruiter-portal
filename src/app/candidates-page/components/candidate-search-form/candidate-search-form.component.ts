@@ -34,6 +34,7 @@ export class CandidateSearchFormComponent implements OnInit {
 
   onReset(): void {
     this.searchForm.reset();
+    this.searchForm.get('status')?.setValue('');
     this.searchTriggered.emit(this.searchForm.value);
   }
 }

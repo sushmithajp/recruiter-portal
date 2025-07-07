@@ -1,4 +1,12 @@
-<app-candidate-search-form
-  (searchTriggered)="onSearch($event)"
-></app-candidate-search-form>
-<app-candidate-list [filters]="filters"></app-candidate-list>
+<!-- Scrollable Content -->
+<!-- <main class="container my-4 flex-grow-1 overflow-auto"> -->
+
+<div class="container mt-4">
+  <app-candidate-search-form
+    (searchTriggered)="onSearch($event)"
+  ></app-candidate-search-form>
+
+  <app-candidate-list [candidates]="filteredCandidates"></app-candidate-list>
+</div>
+
+<!-- </main> -->
