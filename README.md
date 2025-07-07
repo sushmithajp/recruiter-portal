@@ -70,7 +70,23 @@ Open your browser at `http://localhost:4200`
 
 Added hover effects, badges for status, and graceful empty-state handling.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Frontend Architecture
+<img width="965" alt="image" src="https://github.com/user-attachments/assets/104d31c2-63fe-4c1f-817f-9e3057f03c40" />
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+## Screenshots
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/ac2ad752-a640-4efd-ab34-28de9f390252" />
+
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/d2cf3d6c-09b5-4831-a529-61de885138d1" />
+
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/59c6a583-b6d0-430c-ba66-d28f2f2c5d63" />
+
+
+
+
 
