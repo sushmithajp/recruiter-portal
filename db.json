@@ -1,0 +1,94 @@
+{
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "position": "Frontend Developer",
+      "address": "123 Maple Street, NY",
+      "phoneNumber": "555-1234",
+      "status": "Shortlisted"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "position": "Backend Developer",
+      "address": "456 Oak Avenue, CA",
+      "phoneNumber": "555-5678",
+      "status": "Interview Scheduled"
+    },
+    {
+      "id": 3,
+      "name": "Carol Davis",
+      "email": "carol@example.com",
+      "position": "Full Stack Engineer",
+      "address": "789 Pine Lane, TX",
+      "phoneNumber": "555-8765",
+      "status": "Rejected"
+    },
+    {
+      "id": 4,
+      "name": "David Lee",
+      "email": "david@example.com",
+      "position": "Data Analyst",
+      "address": "222 Elm Street, WA",
+      "phoneNumber": "555-3456",
+      "status": "Shortlisted"
+    },
+    {
+      "id": 5,
+      "name": "Eva Green",
+      "email": "eva@example.com",
+      "position": "UI/UX Designer",
+      "address": "135 Cherry Blvd, IL",
+      "phoneNumber": "555-9999",
+      "status": "Interview Scheduled"
+    },
+    {
+      "id": 6,
+      "name": "Frank Miller",
+      "email": "frank@example.com",
+      "position": "QA Engineer",
+      "address": "789 Spruce Way, FL",
+      "phoneNumber": "555-8888",
+      "status": "Rejected"
+    },
+    {
+      "id": 7,
+      "name": "Grace Kim",
+      "email": "grace@example.com",
+      "position": "DevOps Engineer",
+      "address": "321 Cedar St, CO",
+      "phoneNumber": "555-7777",
+      "status": "Shortlisted"
+    },
+    {
+      "id": 8,
+      "name": "Henry Adams",
+      "email": "henry@example.com",
+      "position": "Cloud Architect",
+      "address": "654 Birch Rd, MA",
+      "phoneNumber": "555-6666",
+      "status": "Interview Scheduled"
+    },
+    {
+      "id": 9,
+      "name": "Ivy Brown",
+      "email": "ivy@example.com",
+      "position": "Product Manager",
+      "address": "111 Palm Ct, AZ",
+      "phoneNumber": "555-5555",
+      "status": "Rejected"
+    },
+    {
+      "id": 10,
+      "name": "Jack White",
+      "email": "jack@example.com",
+      "position": "Scrum Master",
+      "address": "999 Walnut Dr, NJ",
+      "phoneNumber": "555-4444",
+      "status": "Shortlisted"
+    }
+  ]
+}

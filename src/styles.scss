@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #1e293b; // Tailwind-like slate
+  background-color: #f8fafc;
+}
+
+.table {
+  font-size: 14px;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
