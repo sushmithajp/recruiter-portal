@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { CandidateService } from '../services/candidate.service';
-import { Candidate } from 'src/models/candidate.model';
-import { SearchForm } from 'src/models/search.model';
+import { CandidateService } from '../../services/candidate.service';
+import { Candidate } from 'src/app/models/candidate.model';
+import { SearchForm } from 'src/app/models/search.model';
 
 @Component({
   selector: 'app-candidates-page',

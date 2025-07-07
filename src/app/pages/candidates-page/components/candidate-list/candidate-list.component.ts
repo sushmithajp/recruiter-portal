@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
-import { Candidate } from 'src/models/candidate.model';
+import { Candidate } from 'src/app/models/candidate.model';
 
 @Component({
   selector: 'app-candidate-list',

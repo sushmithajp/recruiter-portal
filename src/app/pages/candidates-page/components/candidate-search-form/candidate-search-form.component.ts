@@ -1,6 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
-import { SearchForm } from 'src/models/search.model';
+import { SearchForm } from 'src/app/models/search.model';
 
 @Component({
   selector: 'app-candidate-search-form',
