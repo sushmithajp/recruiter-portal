@@ -1,15 +1,34 @@
 # TalentBridge - Recruiter Portal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
-A lightweight Angular-based Candidate Management Portal that allows recruiters to search, view, and manage candidate details seamlessly.
+This project was generated using Angular CLI version 13.2.2.
 
+TalentBridge – Recruiter Portal is a lightweight, Angular-powered application designed to help recruiters efficiently search, view, and manage candidate details with ease and clarity.
+
+## Prerequisites
+Make sure you have the following installed on your machine:
+1.  Node.js (v16 or later recommended) –[ Download Node.js](https://nodejs.org/en)
+2.  npm – comes with Node.js
+3.  Angular CLI – install globally using:
+
+```bash
+npm install -g @angular/cli
+
+```
+
+4.  json-server – for running the mock API server:
+```bash
+npm install -g json-server
+
+```
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🚀 Project Setup & Installation
 
 1. **Clone the repository**
 
    ```bash
-   `git clone https://github.com/your-username/recruiter-portal.git`
-   `cd recruiter-portal`
+   git clone https://github.com/your-username/recruiter-portal.git
+   cd recruiter-portal
 
    ```
 
@@ -23,6 +42,8 @@ A lightweight Angular-based Candidate Management Portal that allows recruiters t
    `ng serve`
 
 Open your browser at `http://localhost:4200`
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Design Decisions
 
@@ -49,15 +70,7 @@ Open your browser at `http://localhost:4200`
 
 Added hover effects, badges for status, and graceful empty-state handling.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Frontend Architecture
 
-AppComponent
-│
-├── Header
-├── Footer
-│
-└── RouterOutlet (routes to CandidatePageComponent)
-│
-├── CandidateSearchFormComponent ← emits filters
-├── CandidateListComponent ← receives filtered candidates
-└── CandidateService ← fetches candidate data
